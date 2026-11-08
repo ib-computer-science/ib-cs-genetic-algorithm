@@ -1,8 +1,7 @@
-# IB CS genetic algorithm case study program (Python port)
+# Genetic algorithm demo program (Python port)
 
 A Python port of https://github.com/hurrja/ib-cs-tsp-ga: a genetic algorithm
-that finds a solution to the travelling salesman problem (TSP). TSP data is
-taken from the IBO CS genetic algorithm case study.
+for the travelling salesman problem (TSP).
 
 Supports:
 - truncation, roulette wheel, and tournament selection
@@ -46,7 +45,7 @@ directly off a fitness value.
 
 ## License
 
-Copyright (C) 2021 Jarmo Hurri, Askar Tuiushev, Gabriel Dearden and Diana
+Copyright (C) 2021-2026 Jarmo Hurri, Askar Tuiushev, Gabriel Dearden and Diana
 Ginzburg
 
 This program is free software: you can redistribute it and/or modify it
