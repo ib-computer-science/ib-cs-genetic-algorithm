@@ -31,6 +31,17 @@ implementation, fitness is the *negative* of route length: maximizing it
 minimizes route length, and the corresponding route length can be read
 directly off a fitness value.
 
+## Tests
+
+Each component has a `tests/test_*.py` file with structural (white-box) tests
+that exercise its internal logic directly -- e.g. forcing a crossover's
+random cut points or a mutation's coin flip to specific values and checking
+the exact resulting code path, rather than only checking end-to-end behavior.
+
+```
+python3 -m unittest discover -s tests -t .
+```
+
 ## Layout
 
 - `distances.py` -- city list and the distance table
