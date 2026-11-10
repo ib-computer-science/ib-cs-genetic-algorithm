@@ -53,6 +53,9 @@ python3 -m unittest discover -s tests -t .
 - `termination.py` -- `TerminationRule` base class and implementation
 - `genetic_algorithm.py` -- `TSPGeneticAlgorithm`, the main loop
 - `main.py` -- entry point wiring everything together
+- `two_opt.py` -- 2-opt local search with random restarts, a simpler
+  alternative solver; unlike the genetic algorithm, it reliably reaches at or
+  very near the true optimum for this small instance
 
 ## License
 
